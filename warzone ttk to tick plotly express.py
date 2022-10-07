@@ -38,6 +38,7 @@ weapon(732,43,29,"grau")
 weapon(600,47,36,"stg")
 weapon(619,45,34,"vargo")#659,45,33,
 weapon(833,33,24,"automaton")
+weapon(833,33,24,"auto testy")
 
 x_name = f"{1/tick_calculation(20)} tickrate"
 df = pd.DataFrame({x_name:bars_names,"head dmg":tick_hs,"chest dmg":tick_cs})
