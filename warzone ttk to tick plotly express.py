@@ -39,9 +39,13 @@ weapon(600,47,36,"stg")
 weapon(619,45,34,"vargo")#659,45,33,
 weapon(833,33,24,"automaton")
 weapon(833,33,24,"auto testy")
+weapon(833,33,24,"auto 23233testy")
 
 x_name = f"{1/tick_calculation(20)} tickrate"
 df = pd.DataFrame({x_name:bars_names,"head dmg":tick_hs,"chest dmg":tick_cs})
 
 fig = px.bar(df, x=x_name, y=["head dmg", "chest dmg"], title='ttk to tick', text_auto=True, barmode='group')
 fig.show() 
+
+def branch_testy():
+    pass
